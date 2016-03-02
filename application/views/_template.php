@@ -16,7 +16,7 @@ if (!defined('APPPATH'))
         <title>{title}</title>
         <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+        {caboose_styles}
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
     </head>
     <body>
@@ -37,4 +37,6 @@ if (!defined('APPPATH'))
         <script src="/assets/js/jquery-1.11.1.min.js"></script>
         <script src="/assets/js/bootstrap.min.js"></script>
     </body>
+    {caboose_scripts}
+    {caboose_trailings}
 </html>
